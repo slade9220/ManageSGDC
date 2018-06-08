@@ -8,20 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		5F043F4920C42AAA0000C0F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F043F4820C42AAA0000C0F3 /* AppDelegate.swift */; };
-		5F043F4B20C42AAA0000C0F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F043F4A20C42AAA0000C0F3 /* ViewController.swift */; };
+		5F043F4B20C42AAA0000C0F3 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F043F4A20C42AAA0000C0F3 /* AddViewController.swift */; };
 		5F043F4E20C42AAA0000C0F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F043F4C20C42AAA0000C0F3 /* Main.storyboard */; };
 		5F043F5020C42AAB0000C0F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F043F4F20C42AAB0000C0F3 /* Assets.xcassets */; };
 		5F043F5320C42AAB0000C0F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F043F5120C42AAB0000C0F3 /* LaunchScreen.storyboard */; };
+		5F043F5B20C42ABA0000C0F3 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F043F5A20C42ABA0000C0F3 /* Event.swift */; };
+		5F043F5D20C43B1A0000C0F3 /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F043F5C20C43B1A0000C0F3 /* SaveViewController.swift */; };
+		5F13082520C8178C00D42336 /* SendNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13082420C8178C00D42336 /* SendNotificationViewController.swift */; };
+		5F13082720C8181800D42336 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F13082620C8181800D42336 /* News.swift */; };
+		5F56898A20C520CB00C09AF8 /* TrainsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F56898920C520CB00C09AF8 /* TrainsTableViewController.swift */; };
+		5F56898C20C520DB00C09AF8 /* TrainsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F56898B20C520DB00C09AF8 /* TrainsTableViewCell.swift */; };
+		5F56898F20C5235200C09AF8 /* AddTrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F56898E20C5235200C09AF8 /* AddTrainViewController.swift */; };
+		5F56899120C5237E00C09AF8 /* SaveTrainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F56899020C5237E00C09AF8 /* SaveTrainViewController.swift */; };
+		5F77F51A20C4ACEB00D4B22F /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77F51920C4ACEB00D4B22F /* EventTableViewController.swift */; };
+		5F77F51C20C4ACF700D4B22F /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F77F51B20C4ACF700D4B22F /* EventTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5F043F4520C42AAA0000C0F3 /* ManageWWDC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManageWWDC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F043F4820C42AAA0000C0F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F043F4A20C42AAA0000C0F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F043F4A20C42AAA0000C0F3 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		5F043F4D20C42AAA0000C0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F043F4F20C42AAB0000C0F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F043F5220C42AAB0000C0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F043F5420C42AAB0000C0F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F043F5A20C42ABA0000C0F3 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		5F043F5C20C43B1A0000C0F3 /* SaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
+		5F13082420C8178C00D42336 /* SendNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendNotificationViewController.swift; sourceTree = "<group>"; };
+		5F13082620C8181800D42336 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		5F56898920C520CB00C09AF8 /* TrainsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainsTableViewController.swift; sourceTree = "<group>"; };
+		5F56898B20C520DB00C09AF8 /* TrainsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainsTableViewCell.swift; sourceTree = "<group>"; };
+		5F56898E20C5235200C09AF8 /* AddTrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTrainViewController.swift; sourceTree = "<group>"; };
+		5F56899020C5237E00C09AF8 /* SaveTrainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveTrainViewController.swift; sourceTree = "<group>"; };
+		5F77F51920C4ACEB00D4B22F /* EventTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
+		5F77F51B20C4ACF700D4B22F /* EventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +75,39 @@
 			isa = PBXGroup;
 			children = (
 				5F043F4820C42AAA0000C0F3 /* AppDelegate.swift */,
-				5F043F4A20C42AAA0000C0F3 /* ViewController.swift */,
+				5F043F5A20C42ABA0000C0F3 /* Event.swift */,
+				5F13082620C8181800D42336 /* News.swift */,
 				5F043F4C20C42AAA0000C0F3 /* Main.storyboard */,
+				5F56898D20C520E100C09AF8 /* Train */,
+				5F77F51D20C4AD0400D4B22F /* Event */,
 				5F043F4F20C42AAB0000C0F3 /* Assets.xcassets */,
+				5F13082420C8178C00D42336 /* SendNotificationViewController.swift */,
 				5F043F5120C42AAB0000C0F3 /* LaunchScreen.storyboard */,
 				5F043F5420C42AAB0000C0F3 /* Info.plist */,
 			);
 			path = ManageWWDC;
+			sourceTree = "<group>";
+		};
+		5F56898D20C520E100C09AF8 /* Train */ = {
+			isa = PBXGroup;
+			children = (
+				5F56898920C520CB00C09AF8 /* TrainsTableViewController.swift */,
+				5F56898B20C520DB00C09AF8 /* TrainsTableViewCell.swift */,
+				5F56899020C5237E00C09AF8 /* SaveTrainViewController.swift */,
+				5F56898E20C5235200C09AF8 /* AddTrainViewController.swift */,
+			);
+			path = Train;
+			sourceTree = "<group>";
+		};
+		5F77F51D20C4AD0400D4B22F /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				5F043F4A20C42AAA0000C0F3 /* AddViewController.swift */,
+				5F043F5C20C43B1A0000C0F3 /* SaveViewController.swift */,
+				5F77F51920C4ACEB00D4B22F /* EventTableViewController.swift */,
+				5F77F51B20C4ACF700D4B22F /* EventTableViewCell.swift */,
+			);
+			path = Event;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +181,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F043F4B20C42AAA0000C0F3 /* ViewController.swift in Sources */,
+				5F56899120C5237E00C09AF8 /* SaveTrainViewController.swift in Sources */,
+				5F56898C20C520DB00C09AF8 /* TrainsTableViewCell.swift in Sources */,
+				5F56898A20C520CB00C09AF8 /* TrainsTableViewController.swift in Sources */,
+				5F77F51C20C4ACF700D4B22F /* EventTableViewCell.swift in Sources */,
+				5F13082520C8178C00D42336 /* SendNotificationViewController.swift in Sources */,
+				5F043F4B20C42AAA0000C0F3 /* AddViewController.swift in Sources */,
+				5F13082720C8181800D42336 /* News.swift in Sources */,
+				5F043F5D20C43B1A0000C0F3 /* SaveViewController.swift in Sources */,
+				5F043F5B20C42ABA0000C0F3 /* Event.swift in Sources */,
+				5F56898F20C5235200C09AF8 /* AddTrainViewController.swift in Sources */,
 				5F043F4920C42AAA0000C0F3 /* AppDelegate.swift in Sources */,
+				5F77F51A20C4ACEB00D4B22F /* EventTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BH42K5TN42;
 				INFOPLIST_FILE = ManageWWDC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +347,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = slade9220.ManageWWDC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BH42K5TN42;
 				INFOPLIST_FILE = ManageWWDC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +366,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = slade9220.ManageWWDC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
